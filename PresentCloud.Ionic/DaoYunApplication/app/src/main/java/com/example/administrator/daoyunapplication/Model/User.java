@@ -1,11 +1,11 @@
 package com.example.administrator.daoyunapplication.Model;
 
 /**
- * Created by Administrator on 2020/3/27 0027.
+ * Created by zhangyin on 2020/3/27 0027.
  */
-
+//新建用户类
 public class User {
-//afdaa
+
     public int userId;//用户id
     public String username ;//账号名称，就是学号或工号
     public String nick;//昵称
