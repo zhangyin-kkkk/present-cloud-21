@@ -5,17 +5,17 @@ package com.example.administrator.daoyunapplication.Model;
  */
 //新建用户类
 public class User {
-
-    public int userId;//用户id
-    public String username ;//账号名称，就是学号或工号
-    public String nick;//昵称
-    public String college;//院系
-    public String name;//姓名
-    public String email;//邮箱
-    public String  telephone;//电话号码
-    public int role;//用户身份，0学生，1老师
-    public String  password;//密码
-    public int empiricalValue;//经验值，注册时不用
+//test
+    private int userId;//用户id
+    private String username ;//账号名称，就是学号或工号
+    private String nick;//昵称
+    private String college;//院系
+    private String name;//姓名
+    private String email;//邮箱
+    private String  telephone;//电话号码
+    private int role;//用户身份，0学生，1老师
+    private String  password;//密码
+    private int empiricalValue;//经验值，注册时不用
 
     public int getUserId() {
         return userId;
